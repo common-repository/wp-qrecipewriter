@@ -1,0 +1,28 @@
+.shadow {
+  -moz-box-shadow: 2px 2px 5px #888;
+  -webkit-box-shadow: 2px 2px 5px #888;
+  box-shadow:2px 2px 3px #888;
+}
+
+#detail {
+	clear: both;
+	overflow: hidden; /* Précaution pour IE 7 */
+}
+
+.lbold {
+    font-weight: bold;
+    color: #6B6B6B;
+}
+
+li span {
+	font-weight: normal;
+	color: black;
+}
+
+ol.lbold li {
+	margin: 10px 0px;
+}
+
+.printonly {
+	display: none;
+}

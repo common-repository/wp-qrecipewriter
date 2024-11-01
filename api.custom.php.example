@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * Add some work on new post, or on post update
+ * @param $post: the post to be added/updated
+ * @param $params: the parameters of the post given by the client
+ */
+function qrecipewriter_new_post_custom($post, $params) {
+
+}
+
+/**
+ * Add data to be returned to the client when it ask for a list of posts
+ * @param $post: the post already retrived
+ * @param $data: data given from the client to retrieve the post: {id: $the_post_id}
+ * @return array: data to be send back to the client
+ */
+function qrecipewriter_getPost_custom($post, $data) {
+
+	return array();
+}
+
+/**
+ * Add data to be returned to the client when it ask for a list of posts
+ * @param $posts: the list of posts already retrieved
+ * @param $data: data given from the client to filter posts retrieved: {user: $the_author_of_posts}
+ * @return array: the new list of posts, updated by the function
+ */
+function qrecipewriter_getPosts_custom($posts, $data) {
+
+	return $posts;
+}
